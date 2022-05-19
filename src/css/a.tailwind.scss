@@ -263,6 +263,8 @@ button {
 .mobile-menu.active {
     left: 0 !important;
 }
+
+
 .menu {
     &__item {
         position: relative;
@@ -280,6 +282,13 @@ button {
     }
 }
 
+nav {
+    .mobile_menu {
+        .menu__link {
+            color: #020718;
+        }
+    }
+}
 .grid-parent {
     display:grid;
     grid-template-columns: repeat(6,1fr);
